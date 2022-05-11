@@ -22,3 +22,5 @@ jobs:
         run: |
           curl -o index.js https://raw.githubusercontent.com/ravgeetdhillon/notion-feeder/build/dist/index.js
           node index.js
+- name: Keepalive Workflow
+  uses: gautamkrishnar/keepalive-workflow@1.0.7
